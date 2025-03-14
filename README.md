@@ -1,5 +1,9 @@
 # Projeto Amigo Secreto
 
+
+## Visualize direto no navegador: https://thauanqs.github.io/challenge-amigo-secreto_pt/
+
+
 Projeto do curso "Praticando Logica de programação: Challenge amigo secreto" da Allura.
 
 ![tela ini](https://github.com/user-attachments/assets/bece22c2-2669-49e5-b38c-2350f4aa63cb)
