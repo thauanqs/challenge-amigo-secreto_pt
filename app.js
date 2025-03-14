@@ -25,3 +25,17 @@ function limparCampo(){ // funcao limpa campo
     const inputAmigo = document.getElementById("amigo");
     inputAmigo.value ="";
 }
+
+/////// Implementa uma função para atualizar a lista de amigos
+
+function atualizarListaAmigos (){
+    const lista = document.getElementById("listaAmigos") // referencia a lista html
+    lista.innerHTML = "";
+
+    for (let i = 0; i <amigos.length; i++) {
+
+        let li = document.createElement("li"); // Cria um elemento <li>
+        li.textContent = amigos[i]; // Define o texto do <li>
+        lista.appendChild(li); // Adiciona o <li> na <ul>
+    }
+}
