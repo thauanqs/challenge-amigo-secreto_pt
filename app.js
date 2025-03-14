@@ -20,3 +20,8 @@ function adicionarAmigo (){
 
     atualizarListaAmigos ();
 }
+
+function limparCampo(){ // funcao limpa campo
+    const inputAmigo = document.getElementById("amigo");
+    inputAmigo.value ="";
+}
