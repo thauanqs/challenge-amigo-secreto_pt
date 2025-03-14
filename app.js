@@ -4,4 +4,19 @@
 
 let amigos = [];
 
+function adicionarAmigo (){
 
+    const inputAmigo = document.getElementById("amigo").value; // captura apenas o valor digitado
+
+    console.log (inputAmigo);
+
+    if (inputAmigo == ""){ // testa para entrada vazia
+        alert ("Por favor, insira um nome.");
+        return;
+    }
+    amigos.push(inputAmigo); // adiciona o nome a lista
+    console.log(amigos);
+    limparCampo(); //  limpa o campo
+
+    atualizarListaAmigos ();
+}
